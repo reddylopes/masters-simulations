@@ -1,0 +1,215 @@
+14:27:36.0366926 - Started new Multi-UAV Coordination
+14:27:36.0576781 - Task selected: CIRCLE-30-CLOCKWISE
+14:27:36.0676703 - Minimum cruise-flight atitude: 45
+14:27:36.0776648 - Critical SoC value: 35
+14:27:36.0876588 - Horizontal cruise speed: 500
+14:27:36.0976514 - Vertical cruise speed: 200
+14:27:36.1096464 - Number of UAVs: 3
+14:27:36.1306351 -   UAV1@14550
+14:27:36.1396275 -   UAV2@14551
+14:27:36.1486231 -   UAV3@14552
+14:27:36.2316679 - Number of recharge bases: 4
+14:27:36.2546539 -   Base1@{-26,254587; -48,854297; 23} with UAV1@14550
+14:27:36.2626502 -   Base2@{-26,254616; -48,856062; 24} with UAV2@14551
+14:27:36.2706526 -   Base3@{-26,252374; -48,855525; 14}
+14:27:36.2786410 -   Base4@{-26,252055; -48,854157; 10} with UAV3@14552
+14:27:36.2876357 - Cost function weights:
+14:27:36.2956311 -         SOC: 1
+14:27:36.3036270 -        Wind: 1
+14:27:36.3116224 -        Time: 10
+14:27:36.3216164 -    Maneuver: 1
+14:27:39.1299405 - Acknowledged ENVIRONMENT_REQUEST from {-26,24971; -48,857457}
+14:27:39.2351305 - Started calculations for EnvironmentRequest1@{-26,24971, -48,857457}
+14:27:39.2431269 - UAV1@14550 time remaining (s): 125,588794590066
+14:27:39.2541192 - UAV2@14551 time remaining (s): 112,73466756323
+14:27:39.2641142 - UAV3@14552 time remaining (s): 84,0925762973604
+14:27:39.2771052 -  ****   Wind info from UAV1@14550
+14:27:39.2850992 -  ****        Current Lat: -26,2545874
+14:27:39.2960953 -  ****        Current Lng: -48,8542972
+14:27:39.3070887 -  ****       Wind bearing: 270
+14:27:39.3150831 -  **** Trajectory bearing: 330
+14:27:39.3270758 -  ****     Relative angle: -60
+14:27:39.3350716 -  ****          Wind cost: 0,25
+14:27:39.3450647 - UAV1@14550 costs:
+14:27:39.3520618 -   -      SOC: 0
+14:27:39.3600600 -   -     Wind: 0,25
+14:27:39.3680521 -   -     Time: 1
+14:27:39.3760475 -   - Maneuver: 1
+14:27:39.3840429 -   -    Total: 0,865384615384615
+14:27:39.3920378 -  ****   Wind info from UAV2@14551
+14:27:39.3990349 -  ****        Current Lat: -26,2546162
+14:27:39.4080300 -  ****        Current Lng: -48,8560604
+14:27:39.4150252 -  ****       Wind bearing: 270
+14:27:39.4240208 -  **** Trajectory bearing: 346
+14:27:39.4320162 -  ****     Relative angle: -76
+14:27:39.4400107 -  ****          Wind cost: 0,379039052200166
+14:27:39.4490091 - UAV2@14551 costs:
+14:27:39.4580011 -   -      SOC: 0
+14:27:39.4689939 -   -     Wind: 0,379039052200166
+14:27:39.4789884 -   -     Time: 0,897649093067639
+14:27:39.4879855 -   - Maneuver: 1
+14:27:39.4999776 -   -    Total: 0,796579229452043
+14:27:39.5159680 -  ****   Wind info from UAV3@14552
+14:27:39.5259615 -  ****        Current Lat: -26,2520562
+14:27:39.5339574 -  ****        Current Lng: -48,8541566
+14:27:39.5449507 -  ****       Wind bearing: 270
+14:27:39.5539449 -  **** Trajectory bearing: 308
+14:27:39.5609406 -  ****     Relative angle: -38
+14:27:39.5699362 -  ****          Wind cost: 0,105994623196639
+14:27:39.5779321 - UAV3@14552 costs:
+14:27:39.5859261 -   -      SOC: 0
+14:27:39.5959224 -   -     Wind: 0,105994623196639
+14:27:39.6049181 -   -     Time: 0,669586618550222
+14:27:39.6169098 -   - Maneuver: 1
+14:27:39.6249047 -   -    Total: 0,600143139130682
+14:27:39.6329001 - UAV3@14552 chosen to answer to EnvironmentRequest1@{-26,24971, -48,857457}
+14:27:39.6448923 - =-=-=-=- Route filter for altitude 45 m =-=-=-=-
+14:27:39.6538884 - 0 routes were found
+14:27:39.6679184 - Final cruise altitude value: 45
+14:27:41.4327795 - ++++ State transition identified in UAV3@14552
+14:27:41.4427730 - ++++ AWAY
+14:27:41.4527680 - ++++ BUSY_ASSIGNMENT
+14:27:41.4627662 - ++++ FLYING_ASSIGNMENT
+14:27:41.4717572 - ++++ 0
+14:27:41.4857862 - UAV3@14552 assigned to answer to EnvironmentRequest1@{-26,24971, -48,857457}
+14:30:25.7797756 - ++++ State transition identified in UAV3@14552
+14:30:25.7876595 - ++++ AWAY
+14:30:25.7986566 - ++++ IDLE
+14:30:25.8096481 - ++++ FLYING_ASSIGNMENT
+14:30:25.8186428 - ++++ 0
+14:30:25.8276370 - Acknowledged TASK_END from UAV3@14552
+14:30:25.8386322 - Started calculations for TASK_END#1 from UAV3@14552
+14:30:25.8516255 - Base1@{-26,254587; -48,854297; 23} ignored from calculations due to occupation from UAV1@14550
+14:30:25.8616210 - Base2@{-26,254616; -48,856062; 24} ignored from calculations due to occupation from UAV2@14551
+14:30:25.8716150 - Time from UAV3@14552 to Base3@{-26,252374; -48,855525; 14}: 64,9661459706359
+14:30:25.8796062 - Time from UAV3@14552 to Base4@{-26,252055; -48,854157; 10}: 78,9203406597635
+14:30:25.8876021 -  ****   Wind info from UAV3@14552
+14:30:25.8995961 -  ****        Current Lat: -26,2499505
+14:30:25.9285788 -  ****        Current Lng: -48,8573376
+14:30:25.9365747 -  ****       Wind bearing: 270
+14:30:25.9455694 -  **** Trajectory bearing: 146
+14:30:25.9545655 -  ****     Relative angle: 124
+14:30:25.9635607 -  ****          Wind cost: 0,779596451735373
+14:30:25.9745545 - Base3@{-26,252374; -48,855525; 14} costs:
+14:30:25.9845467 -   -     Wind: 0,779596451735373
+14:30:25.9956104 -   -     Time: 0,823186334822272
+14:30:26.0095322 -   -    Total: 0,819223618178008
+14:30:26.0225274 -  ****   Wind info from UAV3@14552
+14:30:26.0335202 -  ****        Current Lat: -26,2499505
+14:30:26.0475115 -  ****        Current Lng: -48,8573376
+14:30:26.0645025 -  ****       Wind bearing: 270
+14:30:26.0794936 -  **** Trajectory bearing: 126
+14:30:26.0924897 -  ****     Relative angle: 144
+14:30:26.1064772 -  ****          Wind cost: 0,904508497187474
+14:30:26.1174692 - Base4@{-26,252055; -48,854157; 10} costs:
+14:30:26.1294646 -   -     Wind: 0,904508497187474
+14:30:26.1414568 -   -     Time: 1
+14:30:26.1504510 -   -    Total: 0,99131895428977
+14:30:26.1624441 - Base3@{-26,252374; -48,855525; 14} assigned as destination to TASK_END#1 from UAV3@14552
+14:30:26.1724386 - =-=-=-=- Route filter for altitude 45 m =-=-=-=-
+14:30:26.1804335 - 0 routes were found
+14:30:26.1884303 - Final cruise altitude value: 45
+14:30:27.1693138 - ++++ State transition identified in UAV3@14552
+14:30:27.1803090 - ++++ AWAY
+14:30:27.1923007 - ++++ IDLE
+14:30:27.2012982 - ++++ FLYING_BASE
+14:30:27.2142887 - ++++ 3
+14:32:12.4247202 - ++++ State transition identified in UAV3@14552
+14:32:12.4326069 - ++++ AWAY
+14:32:12.4446037 - ++++ BUSY_RECHARGING
+14:32:12.4565917 - ++++ FLYING_BASE
+14:32:12.4645899 - ++++ 3
+14:32:12.4765834 - Acknowledged REQUEST_CHARGE from UAV3@14552
+14:32:14.4936669 - ++++ State transition identified in UAV3@14552
+14:32:14.5015769 - ++++ BASE
+14:32:14.5115471 - ++++ BUSY_RECHARGING
+14:32:14.5215430 - ++++ STATIONARY
+14:32:14.5295379 - ++++ 3
+14:32:39.1405260 - Acknowledged ENVIRONMENT_REQUEST from {-26,252797; -48,855833}
+14:32:39.5782661 - Started calculations for EnvironmentRequest2@{-26,252797, -48,855833}
+14:32:39.5902625 - UAV1@14550 time remaining (s): 50,2939817378568
+14:32:39.6012535 - UAV2@14551 time remaining (s): 40,7604020029403
+14:32:39.6112475 - UAV3@14552 ignored from calculations due to recharge state
+14:32:39.6252402 -  ****   Wind info from UAV1@14550
+14:32:39.6382321 -  ****        Current Lat: -26,2545875
+14:32:39.6492273 -  ****        Current Lng: -48,8542972
+14:32:39.6582225 -  ****       Wind bearing: 270
+14:32:39.6672149 -  **** Trajectory bearing: 322
+14:32:39.6782105 -  ****     Relative angle: -52
+14:32:39.6872034 -  ****          Wind cost: 0,192169262337171
+14:32:39.6982951 - UAV1@14550 costs:
+14:32:39.7071933 -   -      SOC: 0
+14:32:39.7181871 -   -     Wind: 0,192169262337171
+14:32:39.7281806 -   -     Time: 1
+14:32:39.7371758 -   - Maneuver: 1
+14:32:39.7471731 -   -    Total: 0,860936097102859
+14:32:39.7561636 -  ****   Wind info from UAV2@14551
+14:32:39.7671592 -  ****        Current Lat: -26,2546164
+14:32:39.7781521 -  ****        Current Lng: -48,8560603
+14:32:39.7891459 -  ****       Wind bearing: 270
+14:32:39.8001402 -  **** Trajectory bearing: 6
+14:32:39.8091339 -  ****     Relative angle: 264
+14:32:39.8221282 -  ****          Wind cost: 0,552264231633827
+14:32:39.8351202 - UAV2@14551 costs:
+14:32:39.8511096 -   -      SOC: 0
+14:32:39.8750976 -   -     Wind: 0,552264231633827
+14:32:39.8890894 -   -     Time: 0,810442931629323
+14:32:39.9060776 -   - Maneuver: 1
+14:32:39.9160712 -   -    Total: 0,742822580609773
+14:32:39.9260666 - UAV2@14551 chosen to answer to EnvironmentRequest2@{-26,252797, -48,855833}
+14:32:39.9360606 - =-=-=-=- Route filter for altitude 45 m =-=-=-=-
+14:32:39.9460565 - 0 routes were found
+14:32:39.9550498 - Final cruise altitude value: 45
+14:32:41.6793600 - ++++ State transition identified in UAV2@14551
+14:32:41.7423058 - ++++ AWAY
+14:32:41.7552986 - ++++ BUSY_ASSIGNMENT
+14:32:41.7662910 - ++++ FLYING_ASSIGNMENT
+14:32:41.7782851 - ++++ 0
+14:32:41.7962922 - UAV2@14551 assigned to answer to EnvironmentRequest2@{-26,252797, -48,855833}
+14:34:36.0165693 - ++++ State transition identified in UAV2@14551
+14:34:36.0275636 - ++++ AWAY
+14:34:36.0365597 - ++++ IDLE
+14:34:36.0485514 - ++++ FLYING_ASSIGNMENT
+14:34:36.0595470 - ++++ 0
+14:34:36.0755365 - Acknowledged TASK_END from UAV2@14551
+14:34:36.0885293 - Started calculations for TASK_END#2 from UAV2@14551
+14:34:36.1015203 - Base1@{-26,254587; -48,854297; 23} ignored from calculations due to occupation from UAV1@14550
+14:34:36.1125146 - Time from UAV2@14551 to Base2@{-26,254616; -48,856062; 24}: 35,7975215319596
+14:34:36.1255075 - Base3@{-26,252374; -48,855525; 14} ignored from calculations due to occupation from UAV3@14552
+14:34:36.1365027 - Time from UAV2@14551 to Base4@{-26,252055; -48,854157; 10}: 38,1862795522557
+14:34:36.1474951 -  ****   Wind info from UAV2@14551
+14:34:36.1584879 -  ****        Current Lat: -26,2530365
+14:34:36.1674826 -  ****        Current Lng: -48,8557258
+14:34:36.1804746 -  ****       Wind bearing: 270
+14:34:36.1914684 -  **** Trajectory bearing: 191
+14:34:36.2014633 -  ****     Relative angle: 79
+14:34:36.2114560 -  ****          Wind cost: 0,404595502311728
+14:34:36.2214514 - Base2@{-26,254616; -48,856062; 24} costs:
+14:34:36.2304475 -   -     Wind: 0,404595502311728
+14:34:36.2404406 -   -     Time: 0,937444599256464
+14:34:36.2514353 -   -    Total: 0,889003772261488
+14:34:36.2624272 -  ****   Wind info from UAV2@14551
+14:34:36.2774206 -  ****        Current Lat: -26,2530365
+14:34:36.2874151 -  ****        Current Lng: -48,8557258
+14:34:36.2974086 -  ****       Wind bearing: 270
+14:34:36.3074054 -  **** Trajectory bearing: 55
+14:34:36.3183974 -  ****     Relative angle: 215
+14:34:36.3293926 -  ****          Wind cost: 0,909576022144496
+14:34:36.3393842 - Base4@{-26,252055; -48,854157; 10} costs:
+14:34:36.3493787 -   -     Wind: 0,909576022144496
+14:34:36.3583767 -   -     Time: 1
+14:34:36.3673672 -   -    Total: 0,991779638376772
+14:34:36.3783610 - Base2@{-26,254616; -48,856062; 24} assigned as destination to TASK_END#2 from UAV2@14551
+14:34:36.3883560 - =-=-=-=- Route filter for altitude 45 m =-=-=-=-
+14:34:36.3973521 - 0 routes were found
+14:34:36.4073447 - Final cruise altitude value: 45
+14:34:37.0292949 - ++++ State transition identified in UAV2@14551
+14:34:37.0412553 - ++++ AWAY
+14:34:37.0512475 - ++++ IDLE
+14:34:37.0642394 - ++++ FLYING_BASE
+14:34:37.0762325 - ++++ 2
+14:35:53.1955291 - ++++ State transition identified in UAV2@14551
+14:35:53.2054125 - ++++ BASE
+14:35:53.2174038 - ++++ IDLE
+14:35:53.2293978 - ++++ STATIONARY
+14:35:53.2403925 - ++++ 2
